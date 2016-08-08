@@ -351,8 +351,8 @@
 	$(window).load(function(){
 
 		Core.windowLoad();
-		$("#fsi").hide();
-		$('.video_btn').click();
+		// $("#fsi").hide();
+		// $('.video_btn').click();
 	});
 
 })(jQuery);
