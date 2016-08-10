@@ -44,6 +44,36 @@ function cstheme_parallax() {
 				End of magnificPopup
 		------------------------------------------------ */
 
+		
+		/* ------------------------------------------------
+				owlCarousel
+		------------------------------------------------ */
+
+			if($('.reviews_slider').length){
+
+				$('.reviews_slider').owlCarousel({
+				    nav:true,
+				    loop:true,
+				    margin: 30,
+				    autoHeight: true,
+				    navText: [ '', '' ],
+				    responsive:{
+				        0:{
+				            items:1
+				        },
+				        768:{
+				            items:2
+				        }
+				    }
+				    
+				})
+			
+			}
+
+        /* ------------------------------------------------
+				End of owlCarousel
+		------------------------------------------------ */
+
 	});
 
 	$(window).load(function(){
