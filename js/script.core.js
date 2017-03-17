@@ -351,7 +351,12 @@
 	$(window).load(function(){
 
 		Core.windowLoad();
-		$('.video_btn').click();
 	});
+
+	setTimeout(
+	  function() 
+	  {
+	    $('.video_btn').click();
+	  }, 300);
 
 })(jQuery);
